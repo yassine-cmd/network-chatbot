@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env*
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# Dependency directories
+venv/
+.venv/
+env/
+
+# Data files (if large or sensitive - adjust as needed)
+# data/* # Uncomment if PDFs shouldn't be committed
+
+# Vector Store index files (can be large)
+vector_store/
+
+# OS specific files
+.DS_Store
+Thumbs.db 

@@ -1,0 +1,31 @@
+# Core dependencies
+langchain>=0.1.12
+langchain-community>=0.0.28
+langchain-core>=0.1.32
+langchain-google-genai>=2.1.2
+llama-cpp-python>=0.2.30 # For local LLM inference
+langchain-text-splitters>=0.0.1
+
+# Vector store and embeddings
+faiss-cpu>=1.7.4  # CPU version of FAISS
+torch>=2.0.0  # Will be installed with CUDA support
+sentence-transformers>=2.5.1 # Required for HuggingFaceEmbeddings and CrossEncoder
+langchain-huggingface
+
+# PDF processing
+pypdf>=4.1.0
+pdf2image>=1.17.0
+pytesseract>=0.3.10
+Pillow>=10.2.0
+
+# API and web interface
+fastapi>=0.110.0
+uvicorn>=0.27.1
+streamlit>=1.32.2
+python-dotenv>=1.0.1
+pydantic>=2.6.3
+
+# Utilities
+tqdm>=4.66.2
+numpy>=1.26.4
+pandas>=2.2.1
